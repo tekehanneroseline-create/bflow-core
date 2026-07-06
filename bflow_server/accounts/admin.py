@@ -39,5 +39,5 @@ class BookAdmin(admin.ModelAdmin):
 @admin.register(SaleTransaction)
 class SaleTransactionAdmin(admin.ModelAdmin):
     list_display = ('date', 'processed_by', 'items', 'total', 'created_at')
-    list_filter = ('date')
+    list_filter = ['date']
     search_fields = ('processed_by__given_name', 'processed_by__email')
