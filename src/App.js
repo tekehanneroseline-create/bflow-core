@@ -5,7 +5,7 @@ import MainLayout from './layouts/MainLayout';
 import bflowLogo from './assets/bflow logo.png';
 import { GoogleGenerativeAI as GoogleGenAI } from '@google/generative-ai';
 
-const GEMINI_API_KEY = process.env.REACT_APP_GEMINI_API_KEY;
+const GEMINI_API_KEY = AIzaSyBe1p0VSJXu-Fq6GqQo8L7eU4pWF2m723Y;
 
 const BFLOW_AI_SYSTEM_INSTRUCTION =
   'You are the embedded AI core of Bflow, an elite bookshop sales and inventory management system. Answer queries concisely using professional retail terminology.';
